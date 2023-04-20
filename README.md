@@ -3,6 +3,12 @@ A Study on the Correlation between ASD, Intellectual Disability Registration and
 
 이 연구는 신경다양인의 장애인 등록과 거주 지역의 재정자립도와의 관계를 연구하는 저장소입니다.
 
+## Main Link
+https://github.com/milkywaypeko/ASD_ID_FI_Correlation/blob/main/ASD_ID_FI_Correlation.ipynb
+
+## Colab Link (Require Google login)
+https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob/main/ASD_ID_FI_Correlation_Google.ipynb
+
 ## Library requirements
 |Library name|Version  |
 |------------|---------|
