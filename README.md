@@ -18,6 +18,7 @@ https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob
 |Pandas      |1.5.3-1  |
 |Matplotlib  |3.7.1-3  |
 |Seaborn     |0.12.2-1 |
+|Statsmodels |0.13.5-1 |
 
 ## Word Description
 ### Data columns
