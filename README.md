@@ -23,16 +23,33 @@ https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob
 
 ## Word Description
 ### Data columns
-|Korean   |English                                             |
-|---------|----------------------------------------------------|
-|광역자치단체|Regional Local Government / Metropolitan government|
-|기초자치단체|Basic local government / Municipality |
-|지적장애   |Intellectual disability|
-|자폐성장애 |Autistic Spectrum Disorder|
-|발달장애   |Developmental Disability|
-|인구     |Population|
-|재정자립도|Financial Independence|
-|재정자주도|Financial often|
+|Korean   |Initial|English                                             |
+|---------|-------|----------------------------------------------------|
+|광역자치단체|RLG|Regional Local Government / Metropolitan government|
+|기초자치단체|BLG|Basic local government / Municipality |
+|지적장애   |ID|Intellectual disability|
+|자폐성장애 |ASD|Autistic Spectrum Disorder|
+|발달장애   |DD|Developmental Disability|
+|인구     |N/A|Population|
+|재정자립도|FI|Financial Independence|
+|재정자주도|FO|Financial often|
+
+### Other columns
+|Korean   |Initial|English                                             |
+|---------|-------|----------------------------------------------------|
+|지체장애   |PD|Physical Disability|
+|뇌병변장애 |BL|Disability of Brain Lesion |
+|시각장애   |VD|Visual Disability|
+|청각장애   |HD|Hearing Disability|
+|언어장애   |LD|Language Disorder|
+|정신장애   |MD|Mental Disorder|
+|신장장애   |KD|Kidney Dysfunction|
+|심장장애   |CD|Cardiac Dysfunction|
+|호흡기장애 |RD|Respiratory Dysfunction|
+|간 장애   |HD|Hepatic Dysfunction|
+|안면장애  |FD|Facial Disfiguremen|
+|장루요루장애|IUF|Intestinal/Urinary Fistular|
+|뇌전증장애 |EP|Epilepsy|
 
 ## Data Source
 
