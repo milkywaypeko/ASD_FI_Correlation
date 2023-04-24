@@ -46,7 +46,7 @@ https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob
 |신장장애   |KD|Kidney Dysfunction|
 |심장장애   |CD|Cardiac Dysfunction|
 |호흡기장애 |RD|Respiratory Dysfunction|
-|간 장애   |HD|Hepatic Dysfunction|
+|간 장애   |HDB|Hepatic Dysfunction|
 |안면장애  |FD|Facial Disfiguremen|
 |장루요루장애|IUF|Intestinal/Urinary Fistular|
 |뇌전증장애 |EP|Epilepsy|
