@@ -23,8 +23,14 @@ https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob
 
 You can install it easily using [Anaconda](https://www.anaconda.com/).
 
+### Install With Miniconda
+[Download Installer](https://docs.conda.io/en/latest/miniconda.html)
+#### Install Command Line
+> ```conda install anaconda-navigator jupyterlab numpy pandas matplotlib seaborn statsmodels scikit-learn```
+> ```anaconda-navigator```
+
 ### Install in ArchLinux
-> ``` sudo pacman -S python jupyterlab python-numpy python-pandas python-matplotlib python-seaborn python-statsmodels python-scikit-learn ```
+> ```sudo pacman -S python jupyterlab python-numpy python-pandas python-matplotlib python-seaborn python-statsmodels python-scikit-learn```
 
 ## Word Description
 ### Data columns
