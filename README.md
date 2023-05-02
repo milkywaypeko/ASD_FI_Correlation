@@ -27,6 +27,7 @@ You can install it easily using [Anaconda](https://www.anaconda.com/).
 [Download Installer](https://docs.conda.io/en/latest/miniconda.html)
 #### Install Command Line
 > ```conda install anaconda-navigator jupyterlab numpy pandas matplotlib seaborn statsmodels scikit-learn```
+
 > ```anaconda-navigator```
 
 ### Install in ArchLinux
