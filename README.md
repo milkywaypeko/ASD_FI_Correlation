@@ -24,6 +24,7 @@ https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob
 You can install it easily using [Anaconda](https://www.anaconda.com/).
 
 ### Install With Miniconda
+Miniconda is lite version of [Anaconda](https://www.anaconda.com/).
 [Download Installer](https://docs.conda.io/en/latest/miniconda.html)
 #### Install Command Line
 > ```conda install anaconda-navigator jupyterlab numpy pandas matplotlib seaborn statsmodels scikit-learn```
