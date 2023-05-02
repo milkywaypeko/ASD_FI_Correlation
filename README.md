@@ -21,6 +21,11 @@ https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob
 |Statsmodels |0.13.5-1 |
 |Scikit-learn|1.2.2-1  |
 
+You can install it easily using [Anaconda](https://www.anaconda.com/).
+
+### Install in ArchLinux
+> ``` sudo pacman -S python jupyterlab python-numpy python-pandas python-matplotlib python-seaborn python-statsmodels python-scikit-learn ```
+
 ## Word Description
 ### Data columns
 |Korean   |Initial|English                                             |
