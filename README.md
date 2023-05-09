@@ -12,14 +12,14 @@ https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob
 ## Library requirements
 |Library name|Version  |
 |------------|---------|
-|Python      |3.10.10-1|
-|JupyterLab  |3.6.3-3  |
-|NumPy       |1.24.2-1 |
-|Pandas      |1.5.3-1  |
-|Matplotlib  |3.7.1-3  |
-|Seaborn     |0.12.2-1 |
-|Statsmodels |0.13.5-1 |
-|Scikit-learn|1.2.2-1  |
+|Python      |3.11.3-1 |
+|JupyterLab  |3.6.3-7  |
+|NumPy       |1.24.3-2 |
+|Pandas      |1.5.3-3  |
+|Matplotlib  |3.7.1-4  |
+|Seaborn     |0.12.2-3 |
+|Statsmodels |0.13.5-3 |
+|Scikit-learn|1.2.2-3  |
 
 You can install it easily using [Anaconda](https://www.anaconda.com/).
 
@@ -69,7 +69,7 @@ Miniconda is lite version of [Anaconda](https://www.anaconda.com/).
 ## Results
 
 ### Simple Linear Regression of ASD_rate and Financial_Independence
-![ASD_rate VS Financial_Independence](./Image/ASD_VS_FI)
+![ASD_rate VS Financial_Independence](./Image/ASD_VS_FI.png)
 |                           |coef      |std err |t      |P>&#124;t&#124;|[0.025   |0.975]   |
 |---------------------------|----------|--------|-------|---------------|---------|---------|
 |Intercept                  |0.0004    |1.95e-05|19.406 |<0.001         |0.000    |0.000    |
