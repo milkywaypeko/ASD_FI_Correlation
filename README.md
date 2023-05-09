@@ -10,16 +10,16 @@ https://github.com/milkywaypeko/ASD_ID_FI_Correlation/blob/main/ASD_ID_FI_Correl
 https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob/main/ASD_ID_FI_Correlation_Google.ipynb
 
 ## Library requirements
-|Library name|Version  |
-|------------|---------|
-|Python      |3.11.3-1 |
-|JupyterLab  |3.6.3-7  |
-|NumPy       |1.24.3-2 |
-|Pandas      |1.5.3-3  |
-|Matplotlib  |3.7.1-4  |
-|Seaborn     |0.12.2-3 |
-|Statsmodels |0.13.5-3 |
-|Scikit-learn|1.2.2-3  |
+|Library name|Version |
+|------------|--------|
+|Python      |3.11.3-1|
+|JupyterLab  |3.6.3-7 |
+|NumPy       |1.24.3-2|
+|Pandas      |1.5.3-3 |
+|Matplotlib  |3.7.1-4 |
+|Seaborn     |0.12.2-3|
+|Statsmodels |0.13.5-3|
+|Scikit-learn|1.2.2-3 |
 
 You can install it easily using [Anaconda](https://www.anaconda.com/).
 
