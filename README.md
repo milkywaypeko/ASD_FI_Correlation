@@ -69,7 +69,9 @@ Miniconda is lite version of [Anaconda](https://www.anaconda.com/).
 ## Results
 
 ### Simple Linear Regression of ASD_rate and Financial_Independence
+
 ![ASD_rate VS Financial_Independence](./Image/ASD_VS_FI.png)
+
 |                           |coef      |std err |t      |P>&#124;t&#124;|[0.025   |0.975]   |
 |---------------------------|----------|--------|-------|---------------|---------|---------|
 |Intercept                  |0.0004    |1.95e-05|19.406 |<0.001         |0.000    |0.000    |
