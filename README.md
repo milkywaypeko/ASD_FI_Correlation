@@ -3,11 +3,42 @@ A Study on the Correlation between Neurodivergent of ASD Registration and Financ
 
 이 연구는 신경다양인의 자폐성 장애인 등록과 거주 지역의 재정자립도와의 관계를 연구하는 저장소입니다.
 
-## Main Link
-https://github.com/milkywaypeko/ASD_ID_FI_Correlation/blob/main/ASD_ID_FI_Correlation.ipynb
+## Results
+
+### Simple Linear Regression of ASD_rate and Financial_Independence
+
+![ASD_rate VS Financial_Independence](./Image/ASD_VS_FI.png)
+
+|                           |coef      |std err |t      |P>&#124;t&#124;|[0.025   |0.975]   |
+|---------------------------|----------|--------|-------|---------------|---------|---------|
+|Intercept                  |0.0004    |1.95e-05|19.406 |<0.001         |0.000    |0.000    |
+|Financial_Independence     |4.873e-06 |8e-07   |6.090  |<0.001         |3.3e-06  |6.45e-06 |
+
+### Simple Linear Regression of Other_Disability_rate and Financial_Independence
+|Financial_Independence    |coef      |std err |t      |P>&#124;t&#124;|[0.025   |0.975]   |
+|--------------------------|----------|--------|-------|---------------|---------|---------|
+|Physical Disability       |-0.0007   |5.1e-05 |-13.439|<0.001         |-0.001   |-0.001   |
+|Disability of Brain Lesion|-8.965e-05|6.63e-06|-13.524|<0.001         |-0.000   |-7.66e-05|
+|Visual Disability         |-0.0001   |1.24e-05|-10.627|<0.001         |-0.000   |-0.000   |
+|Hearing Disability        |-0.0002   |2.98e-05|-6.878 |<0.001         |-0.000   |-0.000   |
+|Language Disorder         |-2.94e-05 |8.77e-06|-3.354 |0.001          |-4.67e-05|-1.21e-05|
+|Intellectual disability   |-0.0001   |1.08e-05|-11.569|<0.001         |-0.000   |-0.000   |
+|Autistic Spectrum Disorder|4.873e-06 |8e-07   |6.090  |<0.001         |3.3e-06  |6.45e-06 |
+|Mental Disorder           |-5.862e-05|5.91e-06|-9.924 |<0.001         |-7.03e-05|-4.7e-05 |
+|Kidney Dysfunction        |-1.206e-05|1.94e-06|-6.208 |<0.001         |-1.59e-05|-8.23e-06|
+|Cardiac Dysfunction       |-7.517e-07|2.92e-07|-2.574 |0.011          |-1.33e-06|-1.76e-07|
+|Respiratory Dysfunction   |-4.748e-06|6.26e-07|-7.585 |<0.001         |-5.98e-06|-3.51e-06|
+|Hepatic Dysfunction       |-2.542e-06|5.27e-07|-4.823 |<0.001         |-3.58e-06|-1.5e-06 |
+|Facial Disfigurement      |-7.662e-07|1.8e-07 |-4.257 |<0.001         |-1.12e-06|-4.12e-07|
+|Intestinal/Urinary Fistula|-6.797e-06|6.68e-07|-10.183|<0.001         |-8.11e-06|-5.48e-06|
+|Epilepsy                  |-3.385e-06|4.09e-07|-8.285 |<0.001         |-4.19e-06|-2.58e-06|
+|Developmental Disability  |-0.0001   |1.05e-05|-11.368|<0.001         |-0.000   |-9.89e-05|
 
 ## Colab Link (Require Google login)
 https://colab.research.google.com/github/milkywaypeko/ASD_ID_FI_Correlation/blob/main/ASD_ID_FI_Correlation_Google.ipynb
+
+## JupyterLab Link
+https://github.com/milkywaypeko/ASD_ID_FI_Correlation/blob/main/ASD_ID_FI_Correlation.ipynb
 
 ## Library requirements
 |Library name|Version |
@@ -65,37 +96,6 @@ Miniconda is lite version of [Anaconda](https://www.anaconda.com/).
 |안면장애  |FD|Facial Disfigurement|
 |장루요루장애|IUF|Intestinal/Urinary Fistula|
 |뇌전증장애 |EP|Epilepsy|
-
-## Results
-
-### Simple Linear Regression of ASD_rate and Financial_Independence
-
-![ASD_rate VS Financial_Independence](./Image/ASD_VS_FI.png)
-
-|                           |coef      |std err |t      |P>&#124;t&#124;|[0.025   |0.975]   |
-|---------------------------|----------|--------|-------|---------------|---------|---------|
-|Intercept                  |0.0004    |1.95e-05|19.406 |<0.001         |0.000    |0.000    |
-|Financial_Independence     |4.873e-06 |8e-07   |6.090  |<0.001         |3.3e-06  |6.45e-06 |
-
-### Simple Linear Regression of Other_Disability_rate and Financial_Independence
-|Financial_Independence    |coef      |std err |t      |P>&#124;t&#124;|[0.025   |0.975]   |
-|--------------------------|----------|--------|-------|---------------|---------|---------|
-|Physical Disability       |-0.0007   |5.1e-05 |-13.439|<0.001         |-0.001   |-0.001   |
-|Disability of Brain Lesion|-8.965e-05|6.63e-06|-13.524|<0.001         |-0.000   |-7.66e-05|
-|Visual Disability         |-0.0001   |1.24e-05|-10.627|<0.001         |-0.000   |-0.000   |
-|Hearing Disability        |-0.0002   |2.98e-05|-6.878 |<0.001         |-0.000   |-0.000   |
-|Language Disorder         |-2.94e-05 |8.77e-06|-3.354 |0.001          |-4.67e-05|-1.21e-05|
-|Intellectual disability   |-0.0001   |1.08e-05|-11.569|<0.001         |-0.000   |-0.000   |
-|Autistic Spectrum Disorder|4.873e-06 |8e-07   |6.090  |<0.001         |3.3e-06  |6.45e-06 |
-|Mental Disorder           |-5.862e-05|5.91e-06|-9.924 |<0.001         |-7.03e-05|-4.7e-05 |
-|Kidney Dysfunction        |-1.206e-05|1.94e-06|-6.208 |<0.001         |-1.59e-05|-8.23e-06|
-|Cardiac Dysfunction       |-7.517e-07|2.92e-07|-2.574 |0.011          |-1.33e-06|-1.76e-07|
-|Respiratory Dysfunction   |-4.748e-06|6.26e-07|-7.585 |<0.001         |-5.98e-06|-3.51e-06|
-|Hepatic Dysfunction       |-2.542e-06|5.27e-07|-4.823 |<0.001         |-3.58e-06|-1.5e-06 |
-|Facial Disfigurement      |-7.662e-07|1.8e-07 |-4.257 |<0.001         |-1.12e-06|-4.12e-07|
-|Intestinal/Urinary Fistula|-6.797e-06|6.68e-07|-10.183|<0.001         |-8.11e-06|-5.48e-06|
-|Epilepsy                  |-3.385e-06|4.09e-07|-8.285 |<0.001         |-4.19e-06|-2.58e-06|
-|Developmental Disability  |-0.0001   |1.05e-05|-11.368|<0.001         |-0.000   |-9.89e-05|
 
 ## Data Source
 
