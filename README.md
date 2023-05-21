@@ -1,4 +1,4 @@
-# ASD_ID_FI_Correlation
+# ASD_FI_Correlation
 A Study on the Correlation between ASD Registration of Neurodivergent and Financial Independence.
 
 이 저장소는 신경다양인의 자폐성 장애인 등록과 거주 지역의 재정자립도와의 관계에 관한 연구입니다.
