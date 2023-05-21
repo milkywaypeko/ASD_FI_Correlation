@@ -35,10 +35,10 @@ A Study on the Correlation between ASD Registration of Neurodivergent and Financ
 |Developmental Disability  |-0.0001   |1.05e-05|-11.368|<0.001         |-0.000   |-9.89e-05|
 
 ## Colab Link (Require Google login)
-https://colab.research.google.com/github/milkywaypeko/ASD_FI_Correlation/blob/main/ASD_ID_FI_Correlation_Google.ipynb
+https://colab.research.google.com/github/milkywaypeko/ASD_FI_Correlation/blob/main/ASD_FI_Correlation_Google.ipynb
 
 ## JupyterLab Link
-https://github.com/milkywaypeko/ASD_FI_Correlation/blob/main/ASD_ID_FI_Correlation.ipynb
+https://github.com/milkywaypeko/ASD_FI_Correlation/blob/main/ASD_FI_Correlation.ipynb
 
 ## Library requirements
 |Library name|Version |
