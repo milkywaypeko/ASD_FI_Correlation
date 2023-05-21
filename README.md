@@ -73,7 +73,6 @@ Miniconda is lite version of [Anaconda](https://www.anaconda.com/).
 |---------|-------|----------------------------------------------------|
 |광역자치단체|RLG|Regional Local Government / Metropolitan government|
 |기초자치단체|BLG|Basic local government / Municipality |
-|지적장애   |ID|Intellectual disability|
 |자폐성장애 |ASD|Autistic Spectrum Disorder|
 |발달장애   |DD|Developmental Disability|
 |인구     |N/A|Population|
@@ -88,6 +87,7 @@ Miniconda is lite version of [Anaconda](https://www.anaconda.com/).
 |시각장애   |VD|Visual Disability|
 |청각장애   |HD|Hearing Disability|
 |언어장애   |LD|Language Disorder|
+|지적장애   |ID|Intellectual disability|
 |정신장애   |MD|Mental Disorder|
 |신장장애   |KD|Kidney Dysfunction|
 |심장장애   |CD|Cardiac Dysfunction|
